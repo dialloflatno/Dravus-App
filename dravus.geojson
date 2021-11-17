@@ -1,0 +1,1300 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+          -89.500000,
+          44.500000
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Wisconsin",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.500000,
+          39.000000
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "West Virginia",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.699997,
+          44.000000
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Vermont",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.000000,
+          31.000000
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Texas",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.000000,
+          44.500000
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "South Dakota",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.500000,
+          44.000000
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Oregon",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.8141436672,
+          41.700001
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Rhode Island",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.000000,
+          43.0000000
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "New York",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.500000,
+          44.0000000
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "New Hampshire",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.000000,
+          41.500000
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Nebraska",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.000000,
+          38.500000
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Kansas",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.000000,
+          33.000000
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Mississippi",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.000000,
+          40.0000000
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Illinois",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.500000,
+          39.000000
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Delaware",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.699997,
+          41.599998
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Connecticut",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.603760,
+          34.799999
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Arkansas",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.126976,
+          40.273502
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Indiana",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.603760,
+          38.573936
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Missouri",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.760254,
+          27.994402
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Florida",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.603760,
+          39.876019
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Nevada",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.972168,
+          45.367584
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Maine",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.972168,
+          45.367584
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Michigan",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.441162,
+          33.247875
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Georgia",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.844437,
+          19.741755
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Hawaii",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.369141,
+          66.160507
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Alaska",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.660156,
+          35.860119
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Tennessee",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.024902,
+          37.926868
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Virginia",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.871826,
+          39.833851
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "New Jeresy",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.270020,
+          37.839333
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Kentucky",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.437012,
+          47.650589
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "North Dakota",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.636230,
+          46.392410
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Minnesota",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.921387,
+          36.084621
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Oklahoma",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.533691,
+          46.965260
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Montana",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.740135,
+          47.751076
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Washington",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.950684,
+          39.419220
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Utah",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.358887,
+          39.113014
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Colorado",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.996216,
+          40.367474
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Ohio",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.902298,
+          32.318230
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Alabama",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.581543,
+          42.032974
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Iowa",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.018066,
+          34.307144
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "New Mexico",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.163727,
+          33.836082
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "South Carolina",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.194527,
+          41.203323
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Pennsylvania",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.093735,
+          34.048927
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Arizona",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.641273,
+          39.045753
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Maryland",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.382439,
+          42.407211
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Massachusetts",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.417931,
+          36.778259
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "California",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.742043,
+          44.068203
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Idaho",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.290283,
+          43.075970
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Wyoming",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.793457,
+          35.782169
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "North Carolina",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.329102,
+          30.391830
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "Louisiana",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.958611,
+          31.363647
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Afghanistan",
+        "state": "Helmand",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.000000,
+          11.960000
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Andaman and Nicobar",
+        "state": "Havelock",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.819025,
+          41.327953
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Albania",
+        "state": "Tirana",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.562187,
+          40.730610
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Albania",
+        "state": "Fier",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.086472,
+          36.737232
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": " Algeria",
+        "state": "Algiers, Sidi M'Hamed,",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.910181,
+          36.871521
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": " Algeria",
+        "state": "Skikda",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.365976,
+          36.118050
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": " Algeria",
+        "state": "Teleghma",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.283333,
+          33.549999
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": " Algerias",
+        "state": "Mecheria",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.423325,
+          36.457741
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": " Algeria",
+        "state": "Guelma",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.082667,
+          36.726017
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": " Algeria",
+        "state": "Kouba",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.089767,
+          35.939838
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Algeria",
+        "state": "Mostaganem",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.702042,
+          -14.275632
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "American Samoa",
+        "state": "Pago Pago, Eastern District",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.521835,
+          42.506317
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "United States",
+        "state": "null",
+        "city": "Andorra lea Vella",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.234444,
+          -8.838333
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Angola",
+        "state": "Luanda",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.561045,
+          -12.375729
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Angola",
+        "state": "null",
+        "city": "Lobito,Benguela",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.048988,
+          18.227230
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Anguilla",
+        "state": "Anguilla",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.772346,
+          17.087635
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Antigua and Barbuda",
+        "state": "Antigua",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.381592,
+          -34.603722
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Argentina",
+        "state": "Buenos Aires",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.497028983,
+          40.807400
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Armenia",
+        "state": "Vanadzor, Lori,",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.009354,
+          12.510052
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Aruba",
+        "state": "Oranjestad",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.946457,
+          -37.840935
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Australia",
+        "state": " Melbourne, VIC,",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.363449,
+          48.210033
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Austria",
+        "state": "Vienna",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.867092,
+          40.409264
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Azerbaijan",
+        "state": "Baku",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.345001,
+          25.059999
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Bahamas",
+        "state": "Nassau",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.555000,
+          26.129999
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Bahrain",
+        "state": "Riffa",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.412521,
+          23.810331
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Bangladesh",
+        "state": "Dhaka",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.603226,
+          13.103562
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Barbados",
+        "state": "Bridgetown",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.097622,
+          23.734051
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Belarus",
+        "state": " Brest, Brest Province",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.733333,
+          51.049999
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Belgium",
+        "state": "Ghent, Flemish",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.366669,
+          16.513889
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Belize",
+        "state": "Placencia",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.451324,
+          6.379448
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Benin",
+        "state": "Cotonou",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.683647,
+          32.366859
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Bermuda",
+        "state": "null",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.508064,
+          27.500227
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Bhutan",
+        "state": "null",
+        "town": "Trongsa",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.261963,
+          -19.019585
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Bolivia",
+        "state": "Sucre",
+        "currency": "$"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.191000,
+          44.772182
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Bosnia and Herzegovina",
+        "state": " Banja Luka",
+        "currency": "USD"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.906792,
+          -24.653257
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "country": "Botswana",
+        "state": "Gaborone,",
+        "currency": "$"
+      }
+    
+    }
+  ]
+}
