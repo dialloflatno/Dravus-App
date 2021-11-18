@@ -5,16 +5,15 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 main {
-  min-height: 100vh;
+  height: 25vh;
   padding: 25px;
 }
 
 .map-container {
-
   height: 300px;
 }
 
@@ -50,15 +49,12 @@ main {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-
-.weather-info{
-  
+.weather-info {
   display: flex;
   height: 60px;
   width: 100%;
   align-items: center;
   flex-wrap: nowrap;
-
 }
 
 .EXC {
@@ -75,14 +71,21 @@ main {
 
 /* Todo List CSS */
 
+.todo {
+}
+
+.new-task-form {
+  width: 50%;
+}
 
 .tasks {
   border-radius: 0.5rem;
   border: grey solid 0.1rem;
   border-top: none;
-  padding: 0 1rem;
-  padding-bottom: 1rem;
+  /* padding: 0 1rem;
+  padding-bottom: 1rem; */
   border-radius: 0 0 0.5rem 0.5rem;
+  width: 50%;
 }
 
 .tasks .task {
