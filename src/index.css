@@ -13,6 +13,10 @@ main {
   border-radius: 5px;
 }
 
+.weatherdiv {
+  width: 50%;
+}
+
 .map {
   display: flex;
 }
@@ -23,6 +27,7 @@ main {
   flex-direction: column;
   justify-content: space-around;
 }
+
 .main,
 .ERContainer,
 .ExchangeRate,
@@ -32,21 +37,19 @@ main {
   display: flex;
   justify-content: center;
   border-color: rgba(185, 185, 185, 0.685);
-  flex-direction: row;
 }
 
-.ERContainer {
+.Container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   background-color: white;
   border-radius: 5px;
 }
 
 .ExchangeRate {
-  order: -1;
   font-size: large;
   font-weight: bold;
+  width: 50%;
 }
 
 .convert {
@@ -78,6 +81,12 @@ main {
 .map-container {
   height: 400px;
 }
+
+.search-bar {
+  flex-direction: column;
+  align-items: center;
+}
+
 .search-box {
   width: 100%;
   margin: 0 0 75px;

@@ -8,7 +8,7 @@ import TodoList from "./TodoList.js";
 import "./App.css";
 
 const BASE_URL =
-  "http://data.fixer.io/api/latest?access_key=5a7b17d0a25ef0714c077a46665b743b&format=1";
+  "http://api.exchangeratesapi.io/v1/latest?access_key=8088fcbcb995390634c99091a1a8b134&format=1";
 
 function App() {
   const [currencyOptions, setCurrencyOptions] = useState([]);
@@ -62,11 +62,10 @@ function App() {
       <div classname="map">
         <Map />
       </div>
-      <div className="ERContainer">
+      <div className="Container">
         <div className="ExchangeRate">
           <p>Exchange Rate Conversion</p>
-        </div>
-        <div className="converter">
+
           <CurrencyRow
             className="FirstCurrency"
             currencyOptions={currencyOptions}
@@ -87,8 +86,10 @@ function App() {
             amount={toAmount}
           />
         </div>
+        <div className="weatherdiv">
+          <Weather />
+        </div>
       </div>
-      <Weather />
       <TodoList />
     </div>
   );
