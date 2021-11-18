@@ -1,25 +1,36 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import TaskForm from "./TaskForm";
 import TaskList from "./TaskList";
-import { TASKS } from "./TaskData";
 
 function TodoList() {
-  
-  const [tasksStateArray , setTasksStateArray] = useState(TASKS)
-  
+  const [tasksStateArray, setTasksStateArray] = useState([]);
+  const urlTask = "http://localhost:3000/Task";
+
+  useEffect(() => {
+    fetch(urlTask)
+      .then(res => res.json())
+      .then(taskData => 
+        setTasksStateArray(taskData),
+        setTasksStateArray(""))
+  }, [])
+
+  const [add, setADD] = useState(tasksStateArray)
+
   function handleTaskDelete(text) {
     const newTaskArray = tasksStateArray.filter((task) => task.text !== text);
     setTasksStateArray(newTaskArray);
   }
+  function handleAdd(addedTask) {
+    const addTask = [...tasksStateArray, addedTask]
+    setADD(addTask)
+  }
+
 
   return (
-    <div className="App">
+    <div className="todo">
       <h2>To-do List</h2>
-      <TaskForm />
-      <TaskList 
-      tasks = {tasksStateArray}
-      onDeleteTask = {handleTaskDelete}
-      />
+      <TaskForm urlTask={urlTask} handleAdd={handleAdd} />
+      <TaskList tasks={add} onDeleteTask={handleTaskDelete} />
     </div>
   );
 }

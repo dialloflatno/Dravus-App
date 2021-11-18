@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
-import Geocoder from "@mapbox/mapbox-gl-geocoder"
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiaWJyYS1oaW1hIiwiYSI6ImNrdzB3bnVzZ2RreW4yeHBnNmp5cTV6eDIifQ.GrAgcRoLUnXBoLZ7hCWTTg';
 
