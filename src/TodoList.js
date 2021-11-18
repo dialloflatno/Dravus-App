@@ -4,22 +4,18 @@ import TaskList from "./TaskList";
 import { TASKS } from "./TaskData";
 
 function TodoList() {
-  
-  const [tasksStateArray , setTasksStateArray] = useState(TASKS)
-  
+  const [tasksStateArray, setTasksStateArray] = useState(TASKS);
+
   function handleTaskDelete(text) {
     const newTaskArray = tasksStateArray.filter((task) => task.text !== text);
     setTasksStateArray(newTaskArray);
   }
 
   return (
-    <div className="App">
+    <div className="todo">
       <h2>To-do List</h2>
       <TaskForm />
-      <TaskList 
-      tasks = {tasksStateArray}
-      onDeleteTask = {handleTaskDelete}
-      />
+      <TaskList tasks={tasksStateArray} onDeleteTask={handleTaskDelete} />
     </div>
   );
 }

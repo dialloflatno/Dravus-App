@@ -1,19 +1,81 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Montserrat', sans-serif;
+  background-color: whitesmoke;
+  font-family: "Arial";
+  margin-top: 5px;
 }
 
 main {
-  min-height: 100vh;
-  padding: 25px;
+  width: auto;
+  max-height: 300px;
+  margin-top: auto;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
 }
-.map-container{
 
+.map {
+  display: flex;
+}
+
+.App {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.main,
+.ERContainer,
+.ExchangeRate,
+.equals,
+.FirstCurrency,
+.SecondCurrency {
+  display: flex;
+  justify-content: center;
+  border-color: rgba(185, 185, 185, 0.685);
+  flex-direction: row;
+}
+
+.ERContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.ExchangeRate {
+  order: -1;
+  font-size: large;
+  font-weight: bold;
+}
+
+.convert {
+  display: flex;
+}
+
+.equals {
+  font-size: small;
+  padding: 5px;
+}
+
+.FirstCurrency {
+}
+
+.input {
+  width: 150px;
+  text-align: right;
+  font-size: medium;
+}
+
+.select {
+  font-size: medium;
+}
+
+.input,
+.select {
+  border: none;
+}
+.map-container {
   height: 400px;
 }
 .search-box {
@@ -23,7 +85,7 @@ main {
 
 .search-box .search-bar {
   display: block;
-  width: 100%;
+  width: auto;
   padding: 15px;
 
   appearance: none;
@@ -33,10 +95,10 @@ main {
 
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 0px 0px 16px 16px;
-  margin-top: -25px;
+  margin-top: 15px;
 
   box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
-  
+
   color: #313131;
   font-size: 20px;
 
@@ -46,8 +108,17 @@ main {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
+.weather-info {
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -50px;
+  max-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
 /* Todo List CSS */
-
 
 .tasks {
   border-radius: 0.5rem;
@@ -163,6 +234,11 @@ button.toggle.on:before {
 
 button.toggle:focus {
   outline: none;
+}
+
+.todo {
+  width: 500px;
+  background-color: white;
 }
 
 /* Todo List CSS */
