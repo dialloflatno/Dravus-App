@@ -59,7 +59,9 @@ function App() {
 
   return (
     <div className="App">
-      <Map />
+      <div classname="map">
+        <Map />
+      </div>
       <div className="ERContainer">
         <div className="ExchangeRate">
           <p>Exchange Rate Conversion</p>
