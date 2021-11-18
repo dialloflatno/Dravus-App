@@ -1,6 +1,7 @@
 import React from 'react';
 import Map from "./Map"
 import Weather from "./Weather"
+import TodoList from "./TodoList.js"
 
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Map />
       <Weather />
+      <TodoList />
     </div>
   );
 }
