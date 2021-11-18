@@ -1,14 +1,14 @@
 import React from "react";
-import MapView from "./MapView"
 import Weather from "./Weather"
+import TodoList from "./TodoList.js"
 
 
 
 function App() {
   return (
     <div className="App">
-      <MapView />
       <Weather />
+      <TodoList />
     </div>
   );
 }
