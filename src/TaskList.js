@@ -1,19 +1,14 @@
 import React from "react";
 import Task from "./Task";
 
-function TaskList({tasks , onDeleteTask}) {
+function TaskList({ tasks, onDeleteTask }) {
   const tasksArray = tasks.map((task) => {
-    return <Task 
-    key={task.text} 
-    text={task.text} 
-    handleTaskDelete={onDeleteTask}/>
-  })
-  return (
-    <div className="tasks">
-      {/* display a list of tasks using Task component */}
-    {tasksArray}
-    </div>
-  );
+    return (
+      <Task key={task.id} text={task.text} handleTaskDelete={onDeleteTask} />
+    );
+  });
+
+  return <div className="tasks">{tasksArray}</div>;
 }
 
 export default TaskList;
