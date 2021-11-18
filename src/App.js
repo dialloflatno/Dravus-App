@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 // import MapView from "./MapView";
 import Weather from "./Weather";
 import CurrencyRow from "./CurrencyRow";
+import Map from "./Map";
+import TodoList from "./TodoList.js";
+
+import "./App.css";
 
 const BASE_URL =
   "http://data.fixer.io/api/latest?access_key=5a7b17d0a25ef0714c077a46665b743b&format=1";
@@ -55,12 +59,12 @@ function App() {
 
   return (
     <div className="App">
-      {/* <MapView /> */}
+      <Map />
       <div className="ERContainer">
         <div className="ExchangeRate">
           <p>Exchange Rate Conversion</p>
         </div>
-        <div>
+        <div className="converter">
           <CurrencyRow
             className="FirstCurrency"
             currencyOptions={currencyOptions}
@@ -83,6 +87,7 @@ function App() {
         </div>
       </div>
       <Weather />
+      <TodoList />
     </div>
   );
 }
