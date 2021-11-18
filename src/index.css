@@ -5,32 +5,51 @@ body {
 }
 
 main {
-  max-height: 150px;
+  width: auto;
+  max-height: 300px;
   margin-top: auto;
   padding: 5px;
+  background-color: white;
+  border-radius: 5px;
 }
 
 .App {
   margin-left: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.main,
+.ERContainer,
+.ExchangeRate,
+.equals,
+.FirstCurrency,
+.SecondCurrency {
+  display: flex;
+  justify-content: center;
+  border-color: rgba(185, 185, 185, 0.685);
 }
 
 .ERContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: white;
+  border-radius: 5px;
 }
 
 .ExchangeRate {
   order: -1;
-  flex-wrap: wrap;
+  font-size: large;
+  font-weight: bold;
+}
+
+.equals {
+  font-size: small;
+  padding: 5px;
 }
 
 .FirstCurrency {
-  order: -1;
-  flex: 1 0 100%;
 }
 
 .input {
@@ -79,10 +98,12 @@ main {
 }
 
 .weather-info {
+  width: auto;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: -50px;
   max-height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: white;
 }

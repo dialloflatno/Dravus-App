@@ -58,27 +58,29 @@ function App() {
       {/* <MapView /> */}
       <div className="ERContainer">
         <div className="ExchangeRate">
-          <h1>Exchange Rate Conversion</h1>
+          <p>Exchange Rate Conversion</p>
         </div>
-        <CurrencyRow
-          className="FirstCurrency"
-          currencyOptions={currencyOptions}
-          selectedCurrency={fromCurrency}
-          onChangeCurrency={(e) => setFromCurrency(e.target.value)}
-          onChangeAmount={handleFromAmountChange}
-          amount={fromAmount}
-        />
-        <div className="equals">
-          1 {fromCurrency}={exchangeRate} {toCurrency}
+        <div>
+          <CurrencyRow
+            className="FirstCurrency"
+            currencyOptions={currencyOptions}
+            selectedCurrency={fromCurrency}
+            onChangeCurrency={(e) => setFromCurrency(e.target.value)}
+            onChangeAmount={handleFromAmountChange}
+            amount={fromAmount}
+          />
+          <div className="equals">
+            1 {fromCurrency} = {exchangeRate} {toCurrency}
+          </div>
+          <CurrencyRow
+            class="SecondCurrency"
+            currencyOptions={currencyOptions}
+            selectedCurrency={toCurrency}
+            onChangeCurrency={(e) => setToCurrency(e.target.value)}
+            onChangeAmount={handleToAmountChange}
+            amount={toAmount}
+          />
         </div>
-        <CurrencyRow
-          class="SecondCurrency"
-          currencyOptions={currencyOptions}
-          selectedCurrency={toCurrency}
-          onChangeCurrency={(e) => setToCurrency(e.target.value)}
-          onChangeAmount={handleToAmountChange}
-          amount={toAmount}
-        />
       </div>
       <Weather />
     </div>
