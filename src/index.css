@@ -1,16 +1,51 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Montserrat', sans-serif;
+  background-color: whitesmoke;
+  font-family: "Arial";
+  margin-top: 5px;
 }
 
 main {
-  min-height: 100vh;
-  padding: 25px;
+  max-height: 150px;
+  margin-top: auto;
+  padding: 5px;
+}
+
+.App {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ERContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ExchangeRate {
+  order: -1;
+  flex-wrap: wrap;
+}
+
+.FirstCurrency {
+  order: -1;
+  flex: 1 0 100%;
+}
+
+.input {
+  width: 150px;
+  text-align: right;
+  font-size: medium;
+}
+
+.select {
+  font-size: medium;
+}
+
+.input,
+.select {
+  border: none;
 }
 
 .search-box {
@@ -20,7 +55,7 @@ main {
 
 .search-box .search-bar {
   display: block;
-  width: 100%;
+  width: auto;
   padding: 15px;
 
   appearance: none;
@@ -30,10 +65,10 @@ main {
 
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 0px 0px 16px 16px;
-  margin-top: -25px;
+  margin-top: 15px;
 
   box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
-  
+
   color: #313131;
   font-size: 20px;
 
@@ -41,4 +76,13 @@ main {
 }
 .search-box .search-bar:focus {
   background-color: rgba(255, 255, 255, 0.75);
+}
+
+.weather-info {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -50px;
+  max-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

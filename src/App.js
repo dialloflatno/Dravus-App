@@ -1,10 +1,10 @@
-import React from "react";
-import MapView from "./MapView";
+import React, { useState, useEffect } from "react";
+// import MapView from "./MapView";
 import Weather from "./Weather";
 import CurrencyRow from "./CurrencyRow";
 
 const BASE_URL =
-  "http://data.fixer.io/api/latest?access_key=1214f270c6e9fd57f4f8ad070add11d7&format=1";
+  "http://data.fixer.io/api/latest?access_key=5a7b17d0a25ef0714c077a46665b743b&format=1";
 
 function App() {
   const [currencyOptions, setCurrencyOptions] = useState([]);
@@ -55,26 +55,32 @@ function App() {
 
   return (
     <div className="App">
-      <MapView />
-      <Weather />
-      <>
-        <h1>Exchange Rate Conversion</h1>
+      {/* <MapView /> */}
+      <div className="ERContainer">
+        <div className="ExchangeRate">
+          <h1>Exchange Rate Conversion</h1>
+        </div>
         <CurrencyRow
+          className="FirstCurrency"
           currencyOptions={currencyOptions}
           selectedCurrency={fromCurrency}
           onChangeCurrency={(e) => setFromCurrency(e.target.value)}
           onChangeAmount={handleFromAmountChange}
           amount={fromAmount}
         />
-        <div className="equals">=</div>
+        <div className="equals">
+          1 {fromCurrency}={exchangeRate} {toCurrency}
+        </div>
         <CurrencyRow
+          class="SecondCurrency"
           currencyOptions={currencyOptions}
           selectedCurrency={toCurrency}
           onChangeCurrency={(e) => setToCurrency(e.target.value)}
           onChangeAmount={handleToAmountChange}
           amount={toAmount}
         />
-      </>
+      </div>
+      <Weather />
     </div>
   );
 }
