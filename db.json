@@ -1,20 +1,44 @@
 {
   "Task": [
     {
+      "id": 1,
       "text": "Buy rice"
     },
     {
+      "id": 2,
       "text": "Build a todo app"
     },
     {
+      "id": 3,
       "text": "Build todo API"
     },
     {
+      "id": 4,
       "text": "Cook rice"
     },
     {
+      "id": 5,
       "text": "Tidy house"
+    },
+    {
+      "text": "Finish our To Do App",
+      "id": 6
+    },
+    {
+      "text": "Finish our project!",
+      "id": 7
+    },
+    {
+      "text": "hi everyone",
+      "id": 8
+    },
+    {
+      "text": "move logic for currency to it's own component",
+      "id": 9
+    },
+    {
+      "text": "build out delete button functionality ",
+      "id": 10
     }
   ]
-  
 }
