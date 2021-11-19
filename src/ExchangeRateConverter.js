@@ -53,9 +53,7 @@ function ExchangeRateConverter() {
 
   return (
     <div className="ERContainer">
-      <div className="ExchangeRate">
-        <p>Exchange Rate Conversion</p>
-      </div>
+      <div className="ExchangeRate"></div>
       <div className="converter">
         <CurrencyRow
           className="FirstCurrency"
