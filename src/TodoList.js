@@ -30,9 +30,10 @@ function TodoList() {
 
   return (
     <div className="todo">
-      <h2>To-do List</h2>
-      <TaskForm urlTask={urlTask} handleAdd={handleAdd} />
-      <TaskList tasks={tasksStateArray} onDeleteTask={handleTaskDelete} />
+      <div className = "inputForm">
+        <TaskForm urlTask={urlTask} handleAdd={handleAdd} />
+      </div>
+        <TaskList tasks={tasksStateArray} onDeleteTask={handleTaskDelete} />
     </div>
   );
 }

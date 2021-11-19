@@ -1,5 +1,17 @@
 .App {
+  color: #ffffff;
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+  table-layout: fixed;
+  justify-content: flex-start;
+  align-items: center;
+  border-image: auto;
+  background-image: url("./assests/holkk.jpeg");
+  background-size:cover;
+  background-color: #cccccc;
 }
 
 .App-logo {
@@ -32,6 +44,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

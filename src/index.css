@@ -9,88 +9,143 @@ body {
 }
 
 main {
-  height: 25vh;
+  height: 15vh;
   padding: 25px;
+}
+
+.map {
+
+  margin: 3 px;
 }
 
 .map-container {
   height: 300px;
+  width: 700px;
+  border-radius: 14px;
+  margin: 20px;
+  box-shadow: 6px 19px 25px #4b4746b3;
+
+
 }
+
+.viewContainer {
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 30 px;
+
+}
+
 
 .search-box {
   width: 100%;
-  margin: 0 0 95px;
+  margin: 11 px 2 px 14 px;
+}
+
+.hello {
+  margin-bottom: -67 px;
 }
 
 .search-box .search-bar {
-  display: block;
+  display: inline-block;
   width: 100%;
-  height: 35px;
-  padding: 15px;
-
+  height: 3 px;
+  padding: 15 px;
+  -webkit-appearance: none;
   appearance: none;
   background: none;
   border: none;
   outline: none;
-
-  background-color: rgba(20, 12, 12, 0.5);
-  border-radius: 0px 0px 16px 16px;
-  margin-top: -25px;
-
-  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
-
-  color: #313131;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin-top: -45 px;
+  /* box-shadow: 0px 5px rgb(0 0 0 / 20%); */
   font-size: 20px;
-
   transition: 0.4s ease;
+  justify-content: flex-start;
+  align-content: stretch;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left: 73 px;
+  align-items: baseline;
+  border-radius: 7px;
 }
 
 .search-box .search-bar:focus {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
+.all-weather-info {
+
+  height: 155 px;
+  margin: 19 px;
+}
+
 .weather-info {
   display: flex;
-  height: 60px;
+  height: 60 px;
   width: 100%;
   align-items: center;
   flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
 }
 
 .EXC {
   display: flex;
-  height: 91px;
-  margin: 8px;
-  width: 102%;
-  align-content: flex-start;
+  align-content: space-around;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: baseline;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 /* Todo List CSS */
 
 .todo {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 53%;
+  flex-direction: column;
+  padding: 11 px;
+  align-content: stretch;
+  justify-content: flex-start;
+  margin: 12 px;
+  margin-bottom: 162 px;
 }
 
 .new-task-form {
-  width: 50%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: stretch;
+  flex-direction: row;
+  align-items: stretch;
+
 }
 
+.inputWidth {
+  width: 100%;
+  border-radius: 13px;
+  width: 153%;
+  margin: 4 px;
+  margin-left: 15 px;
+  padding: 9 px;
+}
+
+.inputForm {}
+
 .tasks {
-  border-radius: 0.5rem;
-  border: grey solid 0.1rem;
+  border-radius: 0.5 rem;
   border-top: none;
-  /* padding: 0 1rem;
-  padding-bottom: 1rem; */
-  border-radius: 0 0 0.5rem 0.5rem;
-  width: 50%;
+  border-radius: 0 0 0.5 rem 0.5 rem;
+  width: 100%;
+  align-items: flex-end;
 }
 
 .tasks .task {
   background: #ffffff99;
-  border: grey solid 0.1rem;
   border-bottom: none;
   padding: 0.25rem 1rem 0.25rem 0.25rem;
   display: flex;
@@ -114,8 +169,7 @@ main {
 
 .tasks .task .label {
   background: lightcyan;
-  color: blue;
-  padding: 0.25rem;
+  padding: 1rem;
   font-size: 0.75rem;
   border: solid #cbcbff 0.15rem;
   border-radius: 0.25rem;
@@ -138,13 +192,12 @@ main {
 }
 
 .new-task-form {
-  border: solid #8989ff 0.1rem;
   display: flex;
   align-items: flex-end;
 }
 
+
 .new-task-form input[type="submit"] {
-  background: #6363ff;
   color: white;
   border: none;
   font-size: 1rem;
@@ -194,6 +247,12 @@ button.toggle.on:before {
 
 button.toggle:focus {
   outline: none;
+}
+
+.select {
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: transparent;
 }
 
 /* Todo List CSS */

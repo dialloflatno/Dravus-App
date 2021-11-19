@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import MapView from "./MapView";
 import Weather from "./Weather";
 import CurrencyRow from "./CurrencyRow";
 import Map from "./Map";
@@ -14,8 +13,7 @@ function App() {
         <Map />
       </div>
       <div className="EXC">
-        <ExchangeRateConverter />
-        <Weather />
+
       </div>
       <TodoList />
     </div>

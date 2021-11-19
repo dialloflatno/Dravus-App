@@ -24,7 +24,7 @@ function Map() {
     })
     return (
 
-        <div>
+        <div className = "viewContainer">
             <div ref={mapContainer} className = "map-container"></div>
         </div>
     )
