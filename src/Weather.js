@@ -55,6 +55,20 @@ function Weather() {
 
   return (
     <div className="all-weather-info">
+        <div className ="hello">
+
+        <div className="search-box">
+            <input
+              type="text"
+              className="search-bar"
+              placeholder="Search..."
+              onChange={(e) => setQuery(e.target.value)}
+              value={query}
+              onKeyPress={search}
+            />
+          </div>
+
+        </div>
       <div
         className={
           typeof weather.main != "undefined"
@@ -62,27 +76,6 @@ function Weather() {
               ? "app warm"
               : "app"
             : "app"
-<<<<<<< HEAD
-          : "app"
-      }
-    >
-      <main>
-        <div className="search-box">
-          <input
-            type="text"
-            className="search-bar"
-            placeholder="Search..."
-            onChange={(e) => setQuery(e.target.value)}
-            value={query}
-            onKeyPress={search}
-          />
-        </div>
-        {typeof weather.main != "undefined" ? (
-          <div className="weather-info">
-            <div className="location-box">
-              <div className="location">
-                {weather.name}, {weather.sys.country}
-=======
         }
       >
         <main>
@@ -97,31 +90,14 @@ function Weather() {
               <div className="weather-box">
                 <div className="temp">{Math.round(weather.main.temp)}°c</div>
                 <div className="weather">{weather.weather[0].main}</div>
->>>>>>> 76dbad6591b00b95c0e809fbd82f1dbb72c2470b
               </div>
             </div>
           ) : (
             ""
           )}
-          <div className="search-box">
-            <input
-              type="text"
-              className="search-bar"
-              placeholder="Search..."
-              onChange={(e) => setQuery(e.target.value)}
-              value={query}
-              onKeyPress={search}
-            />
-          </div>
-<<<<<<< HEAD
-        ) : (
-          ""
-        )}
-      </main>
-=======
+          
         </main>
       </div>
->>>>>>> 76dbad6591b00b95c0e809fbd82f1dbb72c2470b
     </div>
   );
 }

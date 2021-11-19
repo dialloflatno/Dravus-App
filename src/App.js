@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import MapView from "./MapView";
 import Weather from "./Weather";
 import CurrencyRow from "./CurrencyRow";
 import Map from "./Map";
@@ -8,7 +7,8 @@ import TodoList from "./TodoList.js";
 import "./App.css";
 
 const BASE_URL =
-'http://api.exchangeratesapi.io/v1/latest?access_key=8088fcbcb995390634c99091a1a8b134&format=1'
+  "http://api.exchangeratesapi.io/v1/latest?access_key=41ff4233b2e9ae3bae7484988e80c221&format=1";
+
 function App() {
   const [currencyOptions, setCurrencyOptions] = useState([]);
   const [fromCurrency, setFromCurrency] = useState();
@@ -61,33 +61,33 @@ function App() {
       <div classname="map">
         <Map />
       </div>
-      <div className="ERContainer">
-        <div className="ExchangeRate">
-          <p>Exchange Rate Conversion</p>
-        </div>
-        <div className="converter">
-          <CurrencyRow
-            className="FirstCurrency"
-            currencyOptions={currencyOptions}
-            selectedCurrency={fromCurrency}
-            onChangeCurrency={(e) => setFromCurrency(e.target.value)}
-            onChangeAmount={handleFromAmountChange}
-            amount={fromAmount}
-          />
-          <div className="equals">
-            1 {fromCurrency} = {exchangeRate} {toCurrency}
+      <div className="EXC">
+
+            <Weather />
+          <div className="ExchangeRate">
           </div>
-          <CurrencyRow
-            class="SecondCurrency"
-            currencyOptions={currencyOptions}
-            selectedCurrency={toCurrency}
-            onChangeCurrency={(e) => setToCurrency(e.target.value)}
-            onChangeAmount={handleToAmountChange}
-            amount={toAmount}
-          />
-        </div>
+          <div className="converter">
+            <CurrencyRow
+              className="FirstCurrency"
+              currencyOptions={currencyOptions}
+              selectedCurrency={fromCurrency}
+              onChangeCurrency={(e) => setFromCurrency(e.target.value)}
+              onChangeAmount={handleFromAmountChange}
+              amount={fromAmount}
+            />
+            <CurrencyRow
+              class="SecondCurrency"
+              currencyOptions={currencyOptions}
+              selectedCurrency={toCurrency}
+              onChangeCurrency={(e) => setToCurrency(e.target.value)}
+              onChangeAmount={handleToAmountChange}
+              amount={toAmount}
+            />
+          </div>
+            <div className="equals">
+              1 {fromCurrency} = {exchangeRate} {toCurrency}
+            </div>
       </div>
-      <Weather />
       <TodoList />
     </div>
   );

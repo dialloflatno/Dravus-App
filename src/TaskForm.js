@@ -42,6 +42,7 @@ function TaskForm({ handleAdd, urlTask }) {
         value={text}
         type="text"
         name="text"
+        className ="inputWidth"
         placeholder="text"
       />
       <button type="submit">Add Task</button>
