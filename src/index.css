@@ -300,3 +300,11 @@ button.toggle:focus {
 
 
 /* Todo List CSS */
+
+div.closing {
+  margin : 80px;
+}
+
+div.Us {
+  margin : 30px;
+}

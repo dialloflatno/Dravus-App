@@ -20,6 +20,9 @@ function App() {
       <div className="EXC">
       </div>
       <TodoList />
+      <div className="closing">
+        <p></p>
+        </div>
     </div>
   );
 }
