@@ -10,10 +10,14 @@ function TaskList({ tasks, onDeleteTask }) {
         text={task.text}
         handleTaskDelete={onDeleteTask}
       />
+
     );
   });
 
-  return <div className="tasks">{tasksArray}</div>;
+  return <div className="tasks">
+      {tasksArray}
+  </div>;
+
 }
 
 export default TaskList;

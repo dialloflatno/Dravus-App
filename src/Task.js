@@ -15,6 +15,7 @@ function Task({ tasks, text, handleTaskDelete }) {
       <button className="delete" onClick={handleDeleteClick}>
         X
       </button>
+      <br></br>
     </div>
   );
 }

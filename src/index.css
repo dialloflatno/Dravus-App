@@ -8,7 +8,9 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-}.Us{
+}
+
+.Us {
   margin-top: 20px;
 }
 
@@ -85,7 +87,8 @@ main {
 .search-box .search-bar {
   display: inline-block;
   width: 93%;
-  box-shadow: 2px 1px 9px #4b4746b3;;
+  box-shadow: 2px 1px 9px #4b4746b3;
+  ;
   height: 31px;
   padding: 7px;
   -webkit-appearance: none;
@@ -160,38 +163,52 @@ main {
   align-content: stretch;
   flex-direction: row;
   align-items: stretch;
+  align-items: center;
+  border: none;
 
 }
 
 .inputWidth {
-  width: 100%;
+  width: 77%;
+  border: none;
   border-radius: 13px;
-  width: 153%;
-  margin: 4 px;
-  margin-left: 15 px;
-  padding: 9 px;
+  margin: 4px;
+  padding: 4px;
+
 }
 
 .inputForm {
-  height: 21 px;
-  border-radius: 4 px;
-  border: 0 px;
-  background: #ffffffc2;
+  border: 0px;
+  padding: 13px;
+  height: 51px;
+  border-radius: 4px;
+  border-radius: 5px;
+  background: #151010d1;
 }
 
 .tasks {
-  border-radius: 0.5 rem;
+  border-radius: 0.5rem;
   border-top: none;
-  border-radius: 0 0 0.5 rem 0.5 rem;
+  border-radius: 0 0 0.5rem 0.5rem;
   width: 100%;
   align-items: flex-end;
+  background: #09243fc9;
+}
+
+.formHeading {
+  margin-left: 6 px;
+  font-size: large;
+  font-weight: bold;
 }
 
 .tasks .task {
-  background: #ffffff99;
   border-bottom: none;
-  padding: 0.25rem 1rem 0.25rem 0.25rem;
+  padding: 0.25rem 1rem 0.25rem 0.35rem;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+
 }
 
 .tasks .task:first-of-type {
@@ -202,7 +219,6 @@ main {
 .tasks .task:last-of-type {
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
-  border-bottom: grey solid 0.1rem;
 }
 
 .tasks .task .text {
@@ -219,14 +235,15 @@ main {
 }
 
 .tasks .task button.delete {
-  padding: 0 0.5rem;
+  margin-top: 3px;
+  padding: 0 1.5rem;
   margin-left: auto;
   border-radius: 0.5rem;
-  background: #ffe9ed;
-  color: #ff7d7d;
+  background: #ffe9ec00;
+  color: #e69797;
   font-weight: bolder;
   font-size: 1rem;
-  border: solid #ffb1b1 0.1rem;
+  border: solid #f4c8c8 0.1rem;
   cursor: pointer;
 }
 
@@ -236,9 +253,24 @@ main {
 
 .new-task-form {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  border: none;
+
 }
 
+.submit {
+
+
+  color: hsl(0, 0%, 62%);
+  padding: 2px;
+  border: none;
+  margin: 3px;
+  margin-left: -4px;
+  width: 6%;
+  border-radius: 5px;
+  margin-right: 11px;
+
+}
 
 .new-task-form input[type="submit"] {
   color: white;

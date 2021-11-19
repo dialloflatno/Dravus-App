@@ -18,6 +18,7 @@ function App() {
         <ExchangeRateConverter />
       </div>
       <div className="EXC">
+        <br></br>
       </div>
       <TodoList />
     </div>

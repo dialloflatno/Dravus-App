@@ -36,16 +36,16 @@ function TaskForm({ handleAdd, urlTask }) {
 
   return (
     <form onSubmit={handleSubmit} className="new-task-form">
-      <label>New Task</label>
+      <label className ="formHeading" >Plans</label>
       <input
         onChange={(e) => setText(e.target.value)}
         value={text}
         type="text"
         name="text"
         className ="inputWidth"
-        placeholder="text"
+        placeholder="How are we Living"
       />
-      <button type="submit">Add Task</button>
+      <button className = "submit" type="submit">+</button>
     </form>
   );
 }
