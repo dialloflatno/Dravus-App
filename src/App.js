@@ -21,6 +21,10 @@ function App() {
         <br></br>
       </div>
       <TodoList />
+      <div className="closing">
+        <p>
+        </p>
+        </div>
     </div>
   );
 }
