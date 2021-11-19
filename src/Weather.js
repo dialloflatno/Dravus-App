@@ -55,6 +55,20 @@ function Weather() {
 
   return (
     <div className="all-weather-info">
+        <div className ="hello">
+
+        <div className="search-box">
+            <input
+              type="text"
+              className="search-bar"
+              placeholder="Search..."
+              onChange={(e) => setQuery(e.target.value)}
+              value={query}
+              onKeyPress={search}
+            />
+          </div>
+
+        </div>
       <div
         className={
           typeof weather.main != "undefined"
@@ -81,16 +95,7 @@ function Weather() {
           ) : (
             ""
           )}
-          <div className="search-box">
-            <input
-              type="text"
-              className="search-bar"
-              placeholder="Search..."
-              onChange={(e) => setQuery(e.target.value)}
-              value={query}
-              onKeyPress={search}
-            />
-          </div>
+          
         </main>
       </div>
     </div>

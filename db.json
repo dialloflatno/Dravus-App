@@ -23,6 +23,29 @@
     {
       "text": "Finish our project!",
       "id": 7
+<<<<<<< HEAD
+=======
+    },
+    {
+      "text": "hi everyone",
+      "id": 8
+    },
+    {
+      "text": "move logic for currency to it's own component",
+      "id": 9
+    },
+    {
+      "text": "build out delete button functionality ",
+      "id": 10
+    },
+    {
+      "text": "",
+      "id": 11
+    },
+    {
+      "text": "",
+      "id": 12
+>>>>>>> 869f66c80d6aebe892821d7e6f4b2916eb439a21
     }
   ]
 }
