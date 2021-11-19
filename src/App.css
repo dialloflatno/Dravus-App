@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@400;600&family=Shippori+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@400;600;900&family=Shippori+Antique&display=swap');
 .App {
   color: #ffffff;
   display: flex;
@@ -12,6 +15,8 @@
   background-image: url("./assests/holkk.jpeg");
   background-size:cover;
   background-color: #cccccc;
+  font-family: 'M PLUS 2', sans-serif;
+
 }
 
 .App-logo {

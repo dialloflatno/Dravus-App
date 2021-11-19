@@ -9,28 +9,8 @@
       "text": "Build a todo app"
     },
     {
-      "id": 3,
-      "text": "Build todo API"
-    },
-    {
-      "id": 4,
-      "text": "Cook rice"
-    },
-    {
-      "id": 5,
-      "text": "Tidy house"
-    },
-    {
-      "text": "Finish our project!",
-      "id": 7
-    },
-    {
-      "text": "hi",
-      "id": 8
-    },
-    {
-      "text": "hi",
-      "id": 9
+      "text": "",
+      "id": 12
     }
   ]
 }

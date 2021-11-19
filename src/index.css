@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@400;600;754;900&family=Shippori+Antique&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,44 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+.Us {
+  margin-top: 20px;
+}
+
+.weather-box {
+  box-shadow: 6px 9px 23px;
+  border-radius: 100px;
+  box-shadow: aqua;
+  width: 92 px;
+  display: flex;
+  padding: 20px;
+  background-color: rgb(3 3 3 / 43%);
+  font-size: x-large;
+  font-family: "M PLUS 2", sans-serif;
+  font-family: "Shippori Antique", sans-serif;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.weather {
+  font-weight: bold;
+}
+
+.equals {
+  font-size: xx-large;
+  font-weight: bold;
+  display: flex;
+  border-radius: 30 px;
+  width: 100%;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-start;
+}
 
 main {
   height: 15vh;
@@ -14,7 +54,6 @@ main {
 }
 
 .map {
-
   margin: 3 px;
 }
 
@@ -23,9 +62,7 @@ main {
   width: 700px;
   border-radius: 14px;
   margin: 20px;
-  box-shadow: 6px 19px 25px #4b4746b3;
-
-
+  box-shadow: 2px 6px 29px #3b3939b3;
 }
 
 .viewContainer {
@@ -33,9 +70,7 @@ main {
   width: 100%;
   height: 100%;
   margin: 30 px;
-
 }
-
 
 .search-box {
   width: 100%;
@@ -48,9 +83,10 @@ main {
 
 .search-box .search-bar {
   display: inline-block;
-  width: 100%;
-  height: 3 px;
-  padding: 15 px;
+  width: 93%;
+  box-shadow: 2px 1px 9px #4b4746b3;
+  height: 31px;
+  padding: 7px;
   -webkit-appearance: none;
   appearance: none;
   background: none;
@@ -75,20 +111,43 @@ main {
 }
 
 .all-weather-info {
-
-  height: 155 px;
-  margin: 19 px;
+  height: 155px;
+  margin: 19px;
 }
 
 .weather-info {
+  background: radial-gradient(#3c1616b0, transparent);
   display: flex;
-  height: 60 px;
+  border-radius: 30px;
   width: 100%;
   align-items: center;
   flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-content: flex-start;
+}
+
+select {
+  outline: none;
+}
+
+input {
+  color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  outline: none;
+}
+
+.FirstCurrency {
+  text-align: right;
+}
+
+.ERContainer {
+  background: radial-gradient(#3c1616b0, transparent);
+  border-radius: 30px;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 10px;
 }
 
 .EXC {
@@ -122,7 +181,6 @@ main {
   align-content: stretch;
   flex-direction: row;
   align-items: stretch;
-
 }
 
 .inputWidth {
@@ -134,7 +192,12 @@ main {
   padding: 9 px;
 }
 
-.inputForm {}
+.inputForm {
+  height: 21 px;
+  border-radius: 4 px;
+  border: 0 px;
+  background: #ffffffc2;
+}
 
 .tasks {
   border-radius: 0.5 rem;
@@ -195,7 +258,6 @@ main {
   display: flex;
   align-items: flex-end;
 }
-
 
 .new-task-form input[type="submit"] {
   color: white;
