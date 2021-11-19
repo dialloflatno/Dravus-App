@@ -21,7 +21,8 @@ function App() {
       </div>
       <TodoList />
       <div className="closing">
-        <p></p>
+        <p>
+        </p>
         </div>
     </div>
   );

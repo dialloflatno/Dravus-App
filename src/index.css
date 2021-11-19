@@ -34,6 +34,19 @@ body {
   font-weight: bold;
 }
 
+.equals {
+  font-size: xx-large;
+  font-weight: bold;
+  display: flex;
+  border-radius: 30 px;
+  width: 100%;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+
 .equal {
   font-family: 'M PLUS 2', sans-serif;
   font-size: xx-large;
@@ -127,6 +140,29 @@ main {
   flex-direction: row;
   justify-content: space-around;
   align-content: flex-start;
+}
+
+select {
+  outline: none;
+}
+
+input {
+  color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  outline: none;
+}
+
+.FirstCurrency {
+  text-align: right;
+}
+
+.ERContainer {
+  background: radial-gradient(#3c1616b0, transparent);
+  border-radius: 30px;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 10px;
 }
 
 .EXC {
