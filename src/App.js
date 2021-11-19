@@ -12,7 +12,6 @@ function App() {
         <Map />
         <Weather />
         <ExchangeRateConverter />
-    
       </div>
       <div className="EXC">
       </div>
