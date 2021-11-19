@@ -1,6 +1,5 @@
 import React from "react";
 import Weather from "./Weather";
-import CurrencyRow from "./CurrencyRow";
 import Map from "./Map";
 import TodoList from "./TodoList.js";
 import "./App.css";
@@ -13,6 +12,7 @@ function App() {
         <Map />
         <Weather />
         <ExchangeRateConverter />
+    
       </div>
       <div className="EXC">
       </div>
