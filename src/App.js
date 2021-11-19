@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Weather from "./Weather";
-import CurrencyRow from "./CurrencyRow";
 import Map from "./Map";
 import TodoList from "./TodoList.js";
 import "./App.css";
@@ -11,13 +10,13 @@ function App() {
     <div className="App">
       <div classname="map">
         <Map />
+        <Weather />
+        <ExchangeRateConverter />
       </div>
       <div className="EXC">
-
       </div>
       <TodoList />
     </div>
   );
 }
-
 export default App;
