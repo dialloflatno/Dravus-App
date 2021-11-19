@@ -18,8 +18,8 @@ function TodoList() {
   //CONNECTED SETTASKSSTATEARRAY AS THE SETTER FOR ADD TASK BELOW
   //INSTEAD OF SETADD
 
-  function handleTaskDelete(text) {
-    const newTaskArray = tasksStateArray.filter((task) => task.text !== text);
+  function handleTaskDelete(deleted) {
+    const newTaskArray = tasksStateArray.filter((task) => task !== deleted);
     setTasksStateArray(newTaskArray);
   }
   function handleAdd(newTask) {
