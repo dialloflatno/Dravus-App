@@ -1,44 +1,16 @@
 {
   "Task": [
     {
-      "text": "I can't",
-      "id": 13
+      "id": 1,
+      "text": "Buy rice"
     },
     {
-      "text": "Coding",
-      "id": 14
-    },
-    {
-      "text": "Is ",
-      "id": 15
-    },
-    {
-      "text": "Hard",
-      "id": 16
-    },
-    {
-      "text": "We did a great job though",
-      "id": 17
-    },
-    {
-      "text": "Let's not lose heart",
-      "id": 18
-    },
-    {
-      "text": "We got this",
-      "id": 19
-    },
-    {
-      "text": "Oh",
-      "id": 20
+      "id": 2,
+      "text": "Build a todo app"
     },
     {
       "text": "",
-      "id": 21
-    },
-    {
-      "text": "Hold on",
-      "id": 22
+      "id": 12
     }
   ]
 }
